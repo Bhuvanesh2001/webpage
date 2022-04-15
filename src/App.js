@@ -4,21 +4,25 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* folder are created for respective sections along with js and css files 
+        write the code in js files 
+        call your component according to the below comments */}
+      
       {/* call your navbar component here */}
 
-      {/* add 'Why Study in the USA?' section here...! */}
+      {/* call 'Why Study in the USA?' section here...! */}
 
-      {/* add Why choose the USA to accomplish your education goals? section here...! */}
+      {/* call Why choose the USA to accomplish your education goals? section here...! */}
 
-      {/* add More stats on the USA and its education section here ....! */}
+      {/* call More stats on the USA and its education section here ....! */}
 
-      {/* add Eligibility Requirements here ....! */}
+      {/* call Eligibility Requirements here ....! */}
 
-      {/* add  Ubergrads admitted into universities of USA section here....! */}
+      {/* call  Ubergrads admitted into universities of USA section here....! */}
 
-      {/* add For all those SMART Ubergrads who would let the EXPERTS do what they do BEST! section here...! */}
+      {/* call For all those SMART Ubergrads who would let the EXPERTS do what they do BEST! section here...! */}
 
-      {/* add footer section here....! */}
+      {/* call footer section here....! */}
 
     </div>
   );
