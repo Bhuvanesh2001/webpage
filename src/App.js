@@ -4,6 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
+      hi this is bhu
       {/* call your navbar component here */}
 
       {/* add 'Why Study in the USA?' section here...! */}
