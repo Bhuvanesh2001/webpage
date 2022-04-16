@@ -1,5 +1,6 @@
 
 import './App.css';
+import EligibilityRequirements from './components/eligibility requirements/EligibilityRequirements';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       {/* call More stats on the USA and its education section here ....! */}
 
       {/* call Eligibility Requirements here ....! */}
+      <EligibilityRequirements/>
 
       {/* call  Ubergrads admitted into universities of USA section here....! */}
 
