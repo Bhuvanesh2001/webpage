@@ -19,14 +19,14 @@ function App() {
       
       {/* call your navbar component here */}
 
-      {/* <Navbar/> */}
+      <Navbar/>
 
       {/* call 'Why Study in the USA?' section here...! */}
 
       <WhyStudyInUsa/>
 
       {/* call Why choose the USA to accomplish your education goals? section here...! */}
-      {/* <WhyChooseUsa/> */}
+      <WhyChooseUsa/>
 
       {/* call More stats on the USA and its education section here ....! */}
 
@@ -37,7 +37,7 @@ function App() {
       <EligibilityRequirements/> 
 
       {/* call  Ubergrads admitted into universities of USA section here....! */}
-      {/* <UniversitiesOfUsa/> */}
+      <UniversitiesOfUsa/>
 
       {/* call For all those SMART Ubergrads who would let the EXPERTS do what they do BEST! section here...! */}
       

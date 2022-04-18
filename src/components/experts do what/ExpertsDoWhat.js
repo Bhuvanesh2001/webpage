@@ -1,16 +1,15 @@
 import React from "react";
 import "./ExpertsDoWhat.css";
 
-
 export default function ExpertsDoWhat() {
   return (
-    <div className="ExpertsDoWhat-mainDiv">
+    <div className="ExpertsDoWhat-mainDiv ">
       <div className="EligibilityRequirements-top-div">
         <hr className="hr-style" />
         <div className="heading">
           <h6>
-            For all those SMART Ubergrads who would let the <span class='text-orange-500'>EXPERTS</span> do what they
-            do BEST!
+            For all those SMART Ubergrads who would let the{" "}
+            <span class="text-orange-500">EXPERTS</span> do what they do BEST!
           </h6>
         </div>
       </div>

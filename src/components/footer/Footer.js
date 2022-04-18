@@ -11,7 +11,7 @@ export default function Footer() {
     <div>
       <div className="Footer-main-Div">
         <div className="About">
-          <p>About Ubergrad</p>
+          <p className="bhu">About Ubergrad</p>
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
@@ -21,7 +21,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="Countiries">
-          <p>Countires</p>
+          <p className="bhu">Countires</p>
           <ul>
             <li>Study in the USA</li>
             <li>Study in the UK</li>
@@ -32,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="Universities">
-          <p> Universites</p>
+          <p className="bhu"> Universites</p>
           <ul>
             <li>Universities in the USA</li>
             <li>Universities in the UK</li>
@@ -43,7 +43,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="Exam">
-          <p> Exams</p>
+          <p className="bhu"> Exams</p>
           <ul>
             <li>GRE</li>
             <li>IELTS</li>
@@ -54,14 +54,14 @@ export default function Footer() {
           </ul>
         </div>
         <div className="Contact">
-          <p>Contact</p>
+          <p className="bhu">Contact</p>
           <ul>
             <li><span style={{color:"ffc107"}}>Call Us :</span> +91-9303-42-42-42</li>
             <li><span style={{color:"ffc107"}}>WhatsApp Us :</span> +91-9303-42-42-42</li>
             <li><span style={{color:"ffc107"}}>Mail Us :</span> hello@ubergrad.com</li>
           </ul>
           <br/>
-          <img src={Logo}></img>
+          <img className="image-logo" src={Logo}></img>
         </div>
       </div>
 

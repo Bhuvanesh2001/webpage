@@ -1,30 +1,26 @@
 .Footer-main-Div{
-    border: 2px black solid;
     color: white;
     background-color: #323232;
-    display: flex;
+    display:flex;
     flex-direction: row;
-    padding:50px;
+    flex-wrap: wrap;
+   padding: 50px;
 }
-p{
+.bhu{
     padding-bottom: 10px;
+    font-size: 18px;
     font-weight: bold;
+   
 }
-.About{
+.About,.Countiries,.Universities,.Exam,.Contact{
     flex: 1;
+    margin-right: 50px;
+    min-width: 180px;
+    min-height: 200px;
+    
 }
-.Countiries{
-    flex: 1;
-}
-.Universities{
-    flex: 1;
-}
-.Exam{
-    flex: 1;
-}
-.Contact{
-    flex: 1;
-}
+
+
 
 .footer-div{
     background-color: #ffc107;
@@ -44,5 +40,13 @@ p{
 }
 .Contact li span{
     color:#ffc107 ;
+}
+.footer-bottom-right{
+    border: 2px solid black;
+    
+}
+.image-logo{
+    max-width: 250px;
+    ma-height: 70px;
 }
 
