@@ -9,7 +9,7 @@ export default function WhyStudyInUsa() {
       
       <div className="heading">
         <h6>Why Study in the USA?</h6>
-        <hr className='hr-style'/>
+        <hr className='WhyStudyInUsa-hr-style'/>
         <br/>
         <p>The USA hosts 1.1+ million international students in its' world-class universities including 200,000+ Indian students</p>
         <br/><br/>

@@ -42,4 +42,7 @@ p{
     display: inline;
     padding: 20px;
 }
+.Contact li span{
+    color:#ffc107 ;
+}
 

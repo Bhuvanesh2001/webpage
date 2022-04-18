@@ -9,7 +9,7 @@ export default function ExpertsDoWhat() {
         <hr className="hr-style" />
         <div className="heading">
           <h6>
-            For all those SMART Ubergrads who would let the EXPERTS do what they
+            For all those SMART Ubergrads who would let the <span class='text-orange-500'>EXPERTS</span> do what they
             do BEST!
           </h6>
         </div>
@@ -23,7 +23,7 @@ export default function ExpertsDoWhat() {
           </p>
           <p class="py-2 text-left ">
             Your{" "}
-            <span class="font-bold text-1xl text-ug-secondary ">
+            <span class="font-bold text-1xl text-orange-500 ">
               ‘Dedicated Counsellor‘{" "}
             </span>
             would help you in the entire process – from ‘shortlisting’
@@ -32,7 +32,7 @@ export default function ExpertsDoWhat() {
           </p>
           <ul class="list-disc text-left">
             <li class="py-2">
-              <span class="font-bold text-1xl text-ug-secondary text-center">
+              <span class="font-bold text-1xl text-orange-500 text-center">
                 Profile Evaluation
               </span>{" "}
               - suggest a customised &amp; personalised “Best-Fit” University
@@ -40,33 +40,33 @@ export default function ExpertsDoWhat() {
               parameters).
             </li>
             <li class="py-2">
-              <span class="font-bold text-1xl text-ug-secondary text-center">
+              <span class="font-bold text-1xl text-orange-500 text-center">
                 SoPs, LoRs, Resumes
               </span>{" "}
               - proofreading, sharing samples, etc.
             </li>
             <li class="py-2">
-              <span class="font-bold text-1xl text-ug-secondary text-center">
+              <span class="font-bold text-1xl text-orange-500 text-center">
                 Information{" "}
               </span>{" "}
               on Application Fee waivers, GRE / IELTS waivers, deadlines, etc.
             </li>
             <li class="py-2">
-              <span class="font-bold text-1xl text-ug-secondary text-center">
+              <span class="font-bold text-1xl text-orange-500 text-center">
                 University Applications
               </span>{" "}
               - help with documentation, application form filling, special
               requirements, etc.
             </li>
             <li class="py-2">
-              <span class="font-bold text-1xl text-ug-secondary text-center">
+              <span class="font-bold text-1xl text-orange-500 text-center">
                 Tracking
               </span>{" "}
               and follow-up with University Partners for Offer/Admit, I-20, CAS,
               COE, etc.
             </li>
             <li class="py-2">
-              <span class="font-bold text-1xl text-ug-secondary text-center">
+              <span class="font-bold text-1xl text-orange-500 text-center">
                 Visa Process
               </span>{" "}
               - help with documentation, application form filling, mock
@@ -85,7 +85,7 @@ export default function ExpertsDoWhat() {
                   tabindex="0"
                   type="button"
                 >
-                  <span class="MuiButton-label">
+                  <span class="MuiButton-label text-white">
                     TALK TO UBERGRAD COUNSELLOR
                   </span>
                   <span class="MuiTouchRipple-root"></span>

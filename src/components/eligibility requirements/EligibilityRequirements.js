@@ -17,15 +17,15 @@ export default function EligibilityRequirements() {
           <div class="flex flex-row justify-around">
             <div class="p-2 ">
               <p>GRE</p>
-              <div class="text-ug-secondary text-center text-2xl">303</div>
+              <div class="text-orange-500 text-center text-2xl">303</div>
             </div>
             <div class="p-2 ">
               <p>TOEFL</p>
-              <div class="text-ug-secondary text-center text-2xl">82</div>
+              <div class="text-orange-500 text-center text-2xl">82</div>
             </div>
             <div class="p-2 ">
               <p>IELTS</p>
-              <div class="text-ug-secondary text-center text-2xl">6</div>
+              <div class="text-orange-500 text-center text-2xl">6</div>
             </div>
           </div>
         </div>

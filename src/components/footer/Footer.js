@@ -56,9 +56,9 @@ export default function Footer() {
         <div className="Contact">
           <p>Contact</p>
           <ul>
-            <li><span >Call Us :</span> +91-9303-42-42-42</li>
-            <li>WhatsApp Us : +91-9303-42-42-42</li>
-            <li>Mail Us : hello@ubergrad.com</li>
+            <li><span style={{color:"ffc107"}}>Call Us :</span> +91-9303-42-42-42</li>
+            <li><span style={{color:"ffc107"}}>WhatsApp Us :</span> +91-9303-42-42-42</li>
+            <li><span style={{color:"ffc107"}}>Mail Us :</span> hello@ubergrad.com</li>
           </ul>
           <br/>
           <img src={Logo}></img>
@@ -70,9 +70,8 @@ export default function Footer() {
           <div className="footer-bottom-left">
             Copyright © 2022 Ubergrad India Pvt. Ltd. All rights reserved
           </div>
-          <div className="footer-bottom-right">
-            <ul>
-             
+          <div className="footer-bottom-right ">
+            <ul> 
               <li><FacebookIcon></FacebookIcon></li>
               <li><WhatsAppIcon></WhatsAppIcon></li>
               <li><InstagramIcon></InstagramIcon></li>
