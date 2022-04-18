@@ -81,7 +81,7 @@ export default function ExpertsDoWhat() {
                 href="https://calendly.com/ugcall/studyabroadcounselling?month=2021-11"
               >
                 <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-contained m-auto UGbuttonPrimary p-4 text-2xl MuiButton-containedSizeLarge MuiButton-sizeLarge bg-orange-500 rounded-full hover:shadow-lg	"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained m-auto UGbuttonPrimary p-4 text-base first-letter:MuiButton-containedSizeLarge MuiButton-sizeLarge bg-orange-500 rounded-full hover:shadow-lg	"
                   tabindex="0"
                   type="button"
                 >

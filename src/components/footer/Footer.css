@@ -1,0 +1,44 @@
+.Footer-main-Div{
+    border: 2px black solid;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+p{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.About{
+    flex: 1;
+}
+.Countiries{
+    flex: 1;
+}
+.Universities{
+    flex: 1;
+}
+.Exam{
+    flex: 1;
+}
+.Contact{
+    flex: 1;
+}
+
+.footer-div{
+    background-color: yellow;
+    padding: 20px;
+
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+
+    /* here for responsive change to colum */
+}
+
+.footer-bottom-right li{
+    display: inline;
+    padding: 20px;
+}
+

@@ -3,8 +3,10 @@ import "./MoreStatusOnUsa.css";
 import College from "../../assets/icons/home.png";
 import Students from "../../assets/icons/people.png";
 import Man from "../../assets/icons/man.png";
-import Business from "../../assets/icons/business.png";
+import Business from "../../assets/icons/bud.png";
 import Analysis from "../../assets/icons/computerScience.png";
+import Timer from "../../assets/icons/timer.png"
+import Calender from "../../assets/icons/calender.png"
 
 export default function MoreStatusOnUsa() {
   return (
@@ -149,7 +151,7 @@ export default function MoreStatusOnUsa() {
                 <div class="text-lg font-bold pb-4">Part Time Jobs</div>
                 <div class="text-xl pb-4">
                   {" "}
-                  <i class="CountryJobs_jobs__3HOcE CountryJobs_clock__Yb-T1"></i>{" "}
+                  <img src={Timer}></img>
                   20 Hours
                 </div>
                 <div class="text-center">
@@ -163,9 +165,8 @@ export default function MoreStatusOnUsa() {
                 <div class="text-lg font-bold pb-4">
                   Post Study Work Duration
                 </div>
-                <div class="text-xl pb-4">
-                  {" "}
-                  <i class="CountryJobs_jobs__3HOcE CountryJobs_calender__B-aW3"></i>{" "}
+                <div class="text-xl align-middle px-40 mx-22">
+                  <img style={{height:"75px",width:"75px",textAlign:"center"}} src={Calender} ></img>
                   36 Months
                 </div>
                 <div class="text-center">

@@ -17,27 +17,33 @@ function App() {
         call your component according to the below comments */}
       
       {/* call your navbar component here */}
+
       {/* <Navbar/> */}
 
       {/* call 'Why Study in the USA?' section here...! */}
-      <WhyStudyInUsa/>
+
+      {/* <WhyStudyInUsa/> */}
 
       {/* call Why choose the USA to accomplish your education goals? section here...! */}
       {/* <WhyChooseUsa/> */}
 
       {/* call More stats on the USA and its education section here ....! */}
-      <MoreStatusOnUsa/>
+
+      {/* <MoreStatusOnUsa/> */}
 
       {/* call Eligibility Requirements here ....! */}
-      <EligibilityRequirements/> 
+
+      {/* <EligibilityRequirements/>  */}
 
       {/* call  Ubergrads admitted into universities of USA section here....! */}
       {/* <UniversitiesOfUsa/> */}
 
       {/* call For all those SMART Ubergrads who would let the EXPERTS do what they do BEST! section here...! */}
-      <ExpertsDoWhat/>
+      
+      {/* <ExpertsDoWhat/> */}
 
       {/* call footer section here....! */}
+      
       <Footer/>
 
     </div>
