@@ -9,6 +9,7 @@ import UniversitiesOfUsa from './components/universities of usa/UniversitiesOfUs
 import WhyChooseUsa from './components/why choose usa/WhyChooseUsa';
 import WhyStudyInUsa from './components/why study in usa/WhyStudyInUsa';
 
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,7 @@ function App() {
 
       {/* call 'Why Study in the USA?' section here...! */}
 
-      {/* <WhyStudyInUsa/> */}
+      <WhyStudyInUsa/>
 
       {/* call Why choose the USA to accomplish your education goals? section here...! */}
       {/* <WhyChooseUsa/> */}

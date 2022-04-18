@@ -1,7 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import Logo from "../../assets/images/ubergrad_logo_footer.png";
-
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 export default function Footer() {
   return (
     <div>
@@ -52,10 +56,11 @@ export default function Footer() {
         <div className="Contact">
           <p>Contact</p>
           <ul>
-            <li>Call Us : +91-9303-42-42-42</li>
+            <li><span >Call Us :</span> +91-9303-42-42-42</li>
             <li>WhatsApp Us : +91-9303-42-42-42</li>
             <li>Mail Us : hello@ubergrad.com</li>
           </ul>
+          <br/>
           <img src={Logo}></img>
         </div>
       </div>
@@ -67,11 +72,12 @@ export default function Footer() {
           </div>
           <div className="footer-bottom-right">
             <ul>
-              <li>df</li>
-              <li>df</li>
-              <li>fd</li>
-              <li>fd</li>
-              <li>fd</li>
+             
+              <li><FacebookIcon></FacebookIcon></li>
+              <li><WhatsAppIcon></WhatsAppIcon></li>
+              <li><InstagramIcon></InstagramIcon></li>
+              <li><YouTubeIcon></YouTubeIcon></li>
+              <li><LinkedInIcon></LinkedInIcon></li>
             </ul>
           </div>
         </div>
