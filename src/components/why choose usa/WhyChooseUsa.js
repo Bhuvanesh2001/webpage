@@ -4,15 +4,15 @@ import "./WhyChooseUsa.css"
 export default function WhyChooseUsa() {
   return (
   
-      <div className="WhyChooseUsa-main-div">
+      <div className="WhyChooseUsa-main-div text-center">
       <div className="EligibilityRequirements-top-div">
       <hr className='hr-style'/>
       <div className="heading">
-        <h6>Why choose the USA to accomplish your education goals?</h6>
+        <h6 id='WhyChooseUsa'>Why choose the USA to accomplish your education goals?</h6>
       </div>
       </div>
       
-      <div className="WhyChooseUsa-Text leading-7 tracking-wide">
+      <div className="WhyChooseUsa-Text leading-7 tracking-wide text-center">
         <p>Higher education in the United States is known for the top-notch academic excellence its' world-renowned universities provide. Owing to this, the USA has been and will always be the Holy Grail of higher education for international students. This fact has become evident with the 
           rise in the United States' international student population in recent years.</p>
         <br/>

@@ -4,19 +4,22 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-   padding: 50px;
+   padding: 70px;
 }
 .bhu{
+    text-align: left;
     padding-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
    
 }
 .About,.Countiries,.Universities,.Exam,.Contact{
-    flex: 1;
-    margin-right: 50px;
+    /* flex: 1; */
+    text-align: left;
+    display: block;
     min-width: 180px;
     min-height: 200px;
+    
     
 }
 
@@ -24,29 +27,48 @@
 
 .footer-div{
     background-color: #ffc107;
+    
     padding: 20px;
 
 }
 .footer-bottom{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     /* here for responsive change to colum */
 }
 
 .footer-bottom-right li{
     display: inline;
-    padding: 20px;
+    padding: 10px;
 }
 .Contact li span{
     color:#ffc107 ;
 }
 .footer-bottom-right{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     
 }
 .image-logo{
     max-width: 250px;
-    ma-height: 70px;
+    max-height: 70px;
+}
+.Exam{
+    padding-left: 30px;
 }
 
+@media only screen and (max-width: 426px) {
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        /* here for responsive change to colum */
+    }
+    .footer-bottom-left{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+  }

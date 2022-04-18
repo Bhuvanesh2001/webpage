@@ -5,8 +5,8 @@ import Students from "../../assets/icons/people.png";
 import Man from "../../assets/icons/man.png";
 import Business from "../../assets/icons/bud.png";
 import Analysis from "../../assets/icons/computerScience.png";
-import Timer from "../../assets/icons/timer.png"
-import Calender from "../../assets/icons/calender.png"
+import Timer from "../../assets/icons/timer.png";
+import Calender from "../../assets/icons/calender.png";
 
 export default function MoreStatusOnUsa() {
   return (
@@ -18,8 +18,8 @@ export default function MoreStatusOnUsa() {
         </div>
       </div>
 
-      <div className="MoreStatusOnUsa-gridContainer1 ">
-        <div className="container1-box MuiPaper-root MuiCard-root  rounded-lg shadow-lg h-full px-4 py-4 bg-white text-black  MuiPaper-elevation1 MuiPaper-rounded">
+      <div id="container-id2" className="MoreStatusOnUsa-gridContainer1 ">
+        <div id = 'class' className="container1-box MuiPaper-root MuiCard-root  rounded-lg shadow-lg h-full px-4 py-4 bg-white text-black  MuiPaper-elevation1 MuiPaper-rounded">
           <div className="container1-box-grid">
             <div className="container1-box-grid-top-div">
               <h>
@@ -32,7 +32,7 @@ export default function MoreStatusOnUsa() {
             </div>
           </div>
         </div>
-        <div className="container1-box MuiPaper-root MuiCard-root  rounded-lg shadow-lg h-full px-4 py-4 bg-white text-black  MuiPaper-elevation1 MuiPaper-rounded">
+        <div  className="container1-box MuiPaper-root MuiCard-root  rounded-lg shadow-lg h-full px-4 py-4 bg-white text-black  MuiPaper-elevation1 MuiPaper-rounded">
           <div className="container1-box-grid ">
             <div className="container1-box-grid-top-div">
               <h>
@@ -48,37 +48,35 @@ export default function MoreStatusOnUsa() {
         <div className="container1-box MuiPaper-root MuiCard-root  rounded-lg shadow-lg h-full px-4 py-4 bg-white text-black  MuiPaper-elevation1 MuiPaper-rounded">
           <div className="container1-box-top">Most Preferred Courses</div>
           <hr />
-          <div className="container1-box-bottom">
-            <div className="container1-box-bottom-box1">
-              <div className="box1-top">
-                <img src={Man}></img>
-              </div>
-              <p>Engineering</p>
-            </div>
-            <div className="container1-box-bottom-box1">
-              <div className="box1-top">
-                <img src={Business}></img>
-              </div>
-              <p>Business</p>
-            </div>
-            {/* <div className="container1-box-bottom-box1">
-              <div className="box1-top">
-                <img src={Analysis}></img>
-              </div>
-              <p>Computer Science & IT</p>
-            </div> */}
 
-            <div class="p-2 text-center">
-            <img src={Analysis}></img>
-              <p>Computer Science &amp; IT</p>
-            </div>
-            <div className="container1-box-bottom-box1">
+          <div className="container1-box-bottom">
+            <div className="for-responsive">
               <div className="box1-top">
-                <img src={Analysis}></img>
+                <img src={Man} style={{height:"36px",width:"36px"}}></img>
+                <p>Engineering</p>
               </div>
-              <p>Business Analytics</p>
+              <div className="box1-top">
+                <img src={Business} style={{height:"36px",width:"36px"}}></img>
+                <p>Business</p>
+              </div>
+            </div>
+
+            <div className="for-responsive">
+              <div className="container1-box-bottom-box1">
+                <div className="box1-top">
+                  <img src={Analysis} style={{height:"36px",width:"36px"}}></img>
+                  <p>Computer Science &amp; IT</p>
+                </div>
+              </div>
+              <div className="container1-box-bottom-box1">
+                <div className="box1-top">
+                  <img src={Analysis} style={{height:"36px",width:"36px"}}></img>
+                  <p>Business Analytics</p>
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -166,7 +164,14 @@ export default function MoreStatusOnUsa() {
                   Post Study Work Duration
                 </div>
                 <div class="text-xl align-middle px-40 mx-22">
-                  <img style={{height:"75px",width:"75px",textAlign:"center"}} src={Calender} ></img>
+                  <img
+                    style={{
+                      height: "75px",
+                      width: "75px",
+                      textAlign: "center",
+                    }}
+                    src={Calender}
+                  ></img>
                   36 Months
                 </div>
                 <div class="text-center">

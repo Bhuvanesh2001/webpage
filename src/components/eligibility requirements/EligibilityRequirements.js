@@ -62,7 +62,7 @@ export default function EligibilityRequirements() {
         Eligibility Requirements
       </h1>
       <div className="flex flex-row justify-around space-x-3">
-        <div className=" flex flex-col justify-around blockp-3 w-1/3 bg-white rounded-lg border border-gray-200 shadow-md">
+        <div id="id3-for-response" className=" flex flex-col justify-around blockp-3 w-1/3 bg-white rounded-lg border border-gray-200 shadow-md">
           <h3 class=" text-xl font-semibold tracking-normal text-center">
             Average Scores
           </h3>
@@ -89,15 +89,15 @@ export default function EligibilityRequirements() {
           <div class="flex flex-row justify-around">
             <div class="p-2 ">
               <p>GRE</p>
-              <div class="text-ug-secondary text-center text-2xl">303</div>
+              <div class="text-orange-600 text-center text-2xl">303</div>
             </div>
             <div class="p-2 ">
               <p>TOEFL</p>
-              <div class="text-ug-secondary text-center text-2xl">82</div>
+              <div class="text-orange-600 text-center text-2xl">82</div>
             </div>
             <div class="p-2 ">
               <p>IELTS</p>
-              <div class="text-ug-secondary text-center text-2xl">6</div>
+              <div class="text-orange-600 text-center text-2xl">6</div>
             </div>
           </div>
         </div>
@@ -119,21 +119,15 @@ export default function EligibilityRequirements() {
             <strong>Visa Requirements</strong>
           </h3>
           <div>
-            {/* <p className="text-sm">
-              F1 Student Visa for Full-time International Students
-            </p>
-            <ul className="text-sm list-disc pl-5">
-              <li>F1 Student Visa Fee : $360 (approx. ₹ 26,900)</li>
-              <li>Application Fee : $160 (approx. ₹ 11,950)</li>
-            </ul> */}
+            
             <p>F1 Student Visa for Full-time International Students</p>
             <li>
               F1 Student Visa Fee :{" "}
-              <span style={{ color: "red" }}>$360 (approx. ₹ 26,900)</span>
+              <span style={{ color: "orange" }}>$360 (approx. ₹ 26,900)</span>
             </li>
             <li>
               Application Fee :
-              <span style={{ color: "red" }}> $160 (approx. ₹ 11,950)</span>
+              <span style={{ color: "orange" }}> $160 (approx. ₹ 11,950)</span>
             </li>
           </div>
         </div>

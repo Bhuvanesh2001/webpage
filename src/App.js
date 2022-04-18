@@ -23,25 +23,30 @@ function App() {
 
       {/* call 'Why Study in the USA?' section here...! */}
 
-      <WhyStudyInUsa/>
+      {/* <WhyStudyInUsa/> */}
+      
+      {/* completed */}
 
       {/* call Why choose the USA to accomplish your education goals? section here...! */}
-      <WhyChooseUsa/>
+
+      {/* <WhyChooseUsa/> */}
+
+      {/* completed */}
 
       {/* call More stats on the USA and its education section here ....! */}
 
-      <MoreStatusOnUsa/>
+      {/* <MoreStatusOnUsa/> */}
 
       {/* call Eligibility Requirements here ....! */}
 
-      <EligibilityRequirements/> 
+      {/* <EligibilityRequirements/>  */}
 
       {/* call  Ubergrads admitted into universities of USA section here....! */}
-      <UniversitiesOfUsa/>
+      {/* <UniversitiesOfUsa/> */}
 
       {/* call For all those SMART Ubergrads who would let the EXPERTS do what they do BEST! section here...! */}
       
-      <ExpertsDoWhat/>
+      {/* <ExpertsDoWhat/> */}
 
       {/* call footer section here....! */}
       

@@ -4,16 +4,16 @@ import Bgimage from "../../assets/images/study_in_usa.jpg";
 
 export default function WhyStudyInUsa() {
   return (
-    <div
+    <div id="WhyStudyUsaid1"
       style={{ backgroundImage: `url(${Bgimage})` }}
-      className="main-Div  text-center text-white "
+      className="main-Div  text-center text-white w-full "
     >
       <div className="EligibilityRequirements-top-div">
         <div className="heading">
           <h6>Why Study in the USA?</h6>
           <hr className="WhyStudyInUsa-style"/>
           <br />
-          <p>
+          <p className="WhyStudyUsa-p">
             The USA hosts 1.1+ million international students in its'
             world-class universities including 200,000+ Indian students
           </p>

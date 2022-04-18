@@ -5,7 +5,9 @@ p{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
+.WhyStudyUsa-p{
+    font-size: 20px;
+}
 .WhyStudyInUsa-style{
     border-top-width:0px ;
     max-width: 12rem;
@@ -20,3 +22,16 @@ h6{
     font-size: 34px;
     align-items: center;
 }
+
+@media only screen and (max-width: 426px) {
+    h6{
+        font-size: 26px;
+    }
+    .WhyStudyUsa-p{
+        font-size: 16px;
+    }
+    #WhyStudyUsaid1 img{
+        width: 100%;
+        
+    }
+  }

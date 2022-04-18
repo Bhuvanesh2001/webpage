@@ -1,5 +1,6 @@
 p{
     font-weight: lighter;
+    text-align: center;
 }
 .WhyChooseUsa-main-div{
     /* border: 3px black solid; */
@@ -19,7 +20,7 @@ p{
     background-color: rgb(243, 102, 56);
 }
 
-h6{
+#WhyChooseUsa h6{
     padding-top: 6px;
     /* text-align: center; */
     font-size: 34px;
@@ -32,3 +33,16 @@ h6{
     padding-left: 50px;
     padding-right: 50px;
 }
+
+@media only screen and (max-width: 426px) {
+    #WhyChooseUsa{
+        font-size: 20px;
+    }
+    .WhyChooseUsa-Text{
+        font-size: 14.4px;
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+       
+    }
+  }

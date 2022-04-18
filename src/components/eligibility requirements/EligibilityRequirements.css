@@ -52,3 +52,11 @@ h6{
     grid-template-rows: 30px;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 426px) {
+    .id3-for-response{
+        flex-direction: column;
+        width: 100%;
+        background-color: red;
+    }
+  }
