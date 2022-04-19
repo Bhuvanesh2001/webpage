@@ -36,7 +36,7 @@ export default function UniversitiesOfUsa() {
         </div>
       </div>
 
-      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
+      <div  class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
         <div className="max-h-90">
         <div className="start-Card flex justify-between">
             <div className="block py-2 px-4 bg-orange-600 text-left border rounded-full hover:shadow-lg">
@@ -49,7 +49,7 @@ export default function UniversitiesOfUsa() {
           <img class="rounded-t-lg " src={img2} alt=""></img>
         </div>
 
-        <div className="text-center">
+        <div  className="text-center">
           <div class="p-1">Venkata Nagasai</div>
           <div class="p-1 text-orange-500 ">Wichita State University</div>
           <div class="p-3">Master in Computer Science</div>
@@ -58,7 +58,7 @@ export default function UniversitiesOfUsa() {
         </div>
       </div>
 
-      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
+      <div id="image-1css" class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
         <div className="max-h-90">
         <div className="start-Card flex justify-between">
             <div className="block py-2 px-4 bg-orange-600 text-left border rounded-full hover:shadow-lg">
@@ -71,7 +71,7 @@ export default function UniversitiesOfUsa() {
           <img class="rounded-t-lg " src={img3} alt=""></img>
         </div>
 
-        <div className="text-center">
+        <div  className="text-center">
           <div class="p-1">Venkata Nagasai</div>
           <div class="p-1 text-orange-500 ">Wichita State University</div>
           <div class="p-3">Master in Computer Science</div>
@@ -80,7 +80,7 @@ export default function UniversitiesOfUsa() {
         </div>
       </div>
 
-      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
+      <div id="image-1css" class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
         <div className="max-h-90">
         <div className="start-Card flex justify-between">
             <div className="block py-2 px-4 bg-orange-600 text-left border rounded-full hover:shadow-lg">
@@ -102,30 +102,7 @@ export default function UniversitiesOfUsa() {
         </div>
       </div>
 
-      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
-        <div className="max-h-90">
-        <div className="start-Card flex justify-between">
-            <div className="block py-2 px-4 bg-orange-600 text-left border rounded-full hover:shadow-lg">
-              Spring 2022
-            </div>
-            <div className="block py-2 px-4  bg-amber-500 text-black text-right border rounded-full hover:shadow-lg">
-              USA
-            </div>
-          </div>
-          <img class="rounded-t-lg " src={img5} alt=""></img>
-        </div>
-
-        <div className="text-center">
-          <div class="p-1">Venkata Nagasai</div>
-          <div class="p-1 text-orange-500 ">Wichita State University</div>
-          <div class="p-3">Master in Computer Science</div>
-          <div class="p-1 text-orange-500">GRE:299 | ILETS :7</div>
-          <div class="p-1">GPA :7.18</div>
-        </div>
-      </div>
-
       
-
 
       {/* div 2 */}
     </div>

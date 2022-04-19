@@ -11,12 +11,12 @@ export default function Navbar() {
 
       <div >
         <div className="flex flex-grow align-middle gap-10 ">
-          <button
+          <button id="Nav-Button"
             class="MuiButtonBase-root MuiButton-root MuiButton-contained m-auto UGbuttonPrimary p-2 text-base first-letter:MuiButton-containedSizeLarge MuiButton-sizeLarge bg-orange-500 rounded-full hover:shadow-lg px-5 text-white	"
             tabindex="0"
             type="button"
           >
-            <span class="MuiButton-label pb-7">
+            <span id="Navbar-res" class="MuiButton-label pb-7">
               TALK TO UBERGRAD COUNSELLOR
             </span>
             <span class="MuiTouchRipple-root"></span>

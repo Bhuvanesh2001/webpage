@@ -95,9 +95,9 @@ export default function MoreStatusOnUsa() {
 
       <div class="MuiContainer-root h-full MuiContainer-maxWidthLg">
         <div class="h-full">
-          <div class="grid md:grid-cols-3 gap-4 h-full text-center px-8">
+          <div  id="MoreStat-res" class="grid md:grid-cols-3 gap-4 h-full text-center px-8">
             <div class="md:col-span-1 border-r-0 border-white border-solid">
-              <div class="MuiPaper-root MuiCard-root rounded-lg shadow-lg h-full px-auto pb-10 py-auto my-auto bg-white  MuiPaper-elevation1 MuiPaper-rounded">
+              <div  class="MuiPaper-root MuiCard-root rounded-lg shadow-lg h-full px-auto pb-10 py-auto my-auto bg-white  MuiPaper-elevation1 MuiPaper-rounded">
                 <div class="text-lg font-bold py-4">
                   Approximate Tuition Fee Per Year
                 </div>
@@ -208,7 +208,7 @@ export default function MoreStatusOnUsa() {
           </div>
         </div>
       </div> */}
-      <div class="MuiContainer-root h-full MuiContainer-maxWidthLg pt-10">
+      {/* <div class="MuiContainer-root h-full MuiContainer-maxWidthLg pt-10">
         <div class=" h-full">
           <div class="grid md:grid-cols-2 gap-4 h-full text-center px-8 ">
             <div class="md:col-span-1 md:border-r-0 border-white border-solid">
@@ -243,7 +243,7 @@ export default function MoreStatusOnUsa() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
