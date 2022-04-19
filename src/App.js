@@ -23,7 +23,7 @@ function App() {
 
       {/* call 'Why Study in the USA?' section here...! */}
 
-      {/* <WhyStudyInUsa/> */}
+      <WhyStudyInUsa/>
       
       {/* completed */}
 
@@ -35,7 +35,7 @@ function App() {
 
       {/* call More stats on the USA and its education section here ....! */}
 
-      {/* <MoreStatusOnUsa/> */}
+      <MoreStatusOnUsa/>
 
       {/* call Eligibility Requirements here ....! */}
 
@@ -46,11 +46,13 @@ function App() {
 
       {/* call For all those SMART Ubergrads who would let the EXPERTS do what they do BEST! section here...! */}
       
-      {/* <ExpertsDoWhat/> */}
+      <ExpertsDoWhat/>
 
       {/* call footer section here....! */}
       
-      <Footer/>
+      {/* <Footer/> */}
+
+      {/* completed */}
 
     </div>
   );

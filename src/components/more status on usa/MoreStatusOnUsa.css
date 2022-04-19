@@ -1,3 +1,6 @@
+*{
+    font-family: Open Sans,sans-serif;
+}
 .MoreStatusOnUsa-main-Div{
     background: #e5e7eb;
     text-align: center;
@@ -47,8 +50,9 @@ h6{
     font-size: 20px;
 }
 .container1-box-grid-right-div img{
-    min-height: 40px;
-    min-width: 40px;
+
+    min-height: 72px;
+    min-width: 72x;
 }
 .container1-box-bottom{
     display: flex;
@@ -57,6 +61,9 @@ h6{
     gap: 10px;
     justify-content: space-evenly;
 
+}
+#For-text-align{
+    text-align: left;
 }
 .for-responsive{
    
@@ -81,6 +88,13 @@ h6{
     align-items: center;
 flex: 1;
    
+}
+
+#Timer-in-MoreStats{
+    border: 3px solid green;
+    text-align: center;
+    align-items: center;
+
 }
 .for-image img{
     width: 36px;

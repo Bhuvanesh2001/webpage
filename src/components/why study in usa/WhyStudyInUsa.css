@@ -1,5 +1,6 @@
 p{
     font-weight: lighter;
+    font-family: Open Sans,sans-serif;
 }
 .EligibilityRequirements-top-div{
     padding-top: 40px;
@@ -17,6 +18,7 @@ p{
 }
 
 h6{
+    font-weight: 600;
     padding-top: 6px;
     /* text-align: center; */
     font-size: 34px;

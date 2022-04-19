@@ -7,13 +7,13 @@ export default function ExpertsDoWhat() {
       <div className="EligibilityRequirements-top-div">
         <hr className="hr-style" />
         <div className="heading">
-          <h6>
+          <h6 id="h6-ExpertsDoWhat">
             For all those SMART Ubergrads who would let the{" "}
             <span class="text-orange-500">EXPERTS</span> do what they do BEST!
           </h6>
         </div>
       </div>
-      <div class="shadow-box md:px-20 px-7">
+      <div id="ExpertsDoWhat-Padding" class="shadow-box md:px-20 px-7">
         <div class="flex flex-col justify-center ">
           <p class="pb-2">
             Having questions? No issues. Our expert Counsellors are specially
@@ -84,7 +84,7 @@ export default function ExpertsDoWhat() {
                   tabindex="0"
                   type="button"
                 >
-                  <span class="MuiButton-label text-white">
+                  <span id="Button-ExpertsDoWhat" class="MuiButton-label text-white">
                     TALK TO UBERGRAD COUNSELLOR
                   </span>
                   <span class="MuiTouchRipple-root"></span>
