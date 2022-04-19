@@ -9,7 +9,7 @@ export default function WhyStudyInUsa() {
       style={{ backgroundImage: `url(${Bgimage})` }}
       className="main-Div  text-center text-white w-full "
     >
-      <div className="EligibilityRequirements-top-div">
+      <div className="EligibilityRequirements-top-div1">
         <div className="heading">
           <h6>Why Study in the USA?</h6>
           <hr className="WhyStudyInUsa-style" />

@@ -208,6 +208,42 @@ export default function MoreStatusOnUsa() {
           </div>
         </div>
       </div> */}
+      <div class="MuiContainer-root h-full MuiContainer-maxWidthLg pt-10">
+        <div class=" h-full">
+          <div class="grid md:grid-cols-2 gap-4 h-full text-center px-8 ">
+            <div class="md:col-span-1 md:border-r-0 border-white border-solid">
+              <div class="MuiPaper-root MuiCard-root rounded-lg bg-white shadow-lg rounded h-full p-4 MuiPaper-elevation1 MuiPaper-rounded">
+                <div class="text-xl align-middle font-semibold pb-4">Part Time Jobs</div>
+                <div class="text-xl pb-4">
+                  {" "}
+                  <img style={{height:"45px",width:"45px",marginLeft:235}} src={Timer}></img>
+                 <p style={{marginTop:-30,marginLeft:50}}>20 Hours</p>
+                </div>
+                <div class="text-center">
+                  You can work 20 hours per week as part of your CPT/OPT
+                  Programs
+                </div>
+              </div>
+            </div>
+            <div class="md:col-span-1 md:border-r-0 border-white border-solid">
+              <div class="MuiPaper-root MuiCard-root rounded-lg bg-white shadow-lg h-full p-4 MuiPaper-elevation1 MuiPaper-rounded">
+                <div class="text-xl font-semibold pb-4">
+                  Post Study Work Duration
+                </div>
+                <div class="text-xl align-middle px-40 ">
+                  <img style={{height:"45px",width:"45px",textAlign:"center",marginLeft:55}} src={Calender} ></img>
+                  <p style={{marginTop:-30,marginLeft:50}}>36 months</p>
+                </div>
+                <div class="text-center">
+                  Upon graduating, STEM students can apply for an extension of
+                  their OPT (usually it is 12 months) and can work for up to 36
+                  months.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
