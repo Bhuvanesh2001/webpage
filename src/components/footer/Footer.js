@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div>
       <div className="Footer-main-Div">
-        <div className="About">
+        <div className="About cursor-pointer">
           <p className="bhu">About Ubergrad</p>
           <ul>
             <li>About Us</li>
@@ -20,7 +20,7 @@ export default function Footer() {
             <li>Privacy Policy</li>
           </ul>
         </div>
-        <div className="Countiries">
+        <div className="Countiries cursor-pointer">
           <p className="bhu">Countires</p>
           <ul>
             <li>Study in the USA</li>
@@ -31,7 +31,7 @@ export default function Footer() {
             <li>Study in Ireland</li>
           </ul>
         </div>
-        <div className="Universities">
+        <div className="Universities cursor-pointer">
           <p className="bhu"> Universites</p>
           <ul>
             <li>Universities in the USA</li>
@@ -42,7 +42,7 @@ export default function Footer() {
             <li>Universities in Ireland</li>
           </ul>
         </div>
-        <div className="Exam">
+        <div className="Exam cursor-pointer">
           <p className="bhu"> Exams</p>
           <ul>
             <li>GRE</li>
@@ -53,7 +53,7 @@ export default function Footer() {
             <li>PTE</li>
           </ul>
         </div>
-        <div className="Contact">
+        <div className="Contact cursor-pointer">
           <p className="bhu">Contact</p>
           <ul>
             <li><span style={{color:"ffc107"}}>Call Us :</span> +91-9303-42-42-42</li>
@@ -70,7 +70,7 @@ export default function Footer() {
           <div className="footer-bottom-left">
             Copyright © 2022 Ubergrad India Pvt. Ltd. All rights reserved
           </div>
-          <div className="footer-bottom-right ">
+          <div className="footer-bottom-right cursor-pointer">
             <ul> 
               <li><FacebookIcon></FacebookIcon></li>
               <li><WhatsAppIcon></WhatsAppIcon></li>
