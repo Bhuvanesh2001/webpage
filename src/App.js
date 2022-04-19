@@ -23,7 +23,7 @@ function App() {
 
       {/* call 'Why Study in the USA?' section here...! */}
 
-      <WhyStudyInUsa/>
+      {/* <WhyStudyInUsa/> */}
       
       {/* completed */}
 

@@ -28,7 +28,9 @@ export default function MoreStatusOnUsa() {
               <h>
                 <span style={{ color: "red" }}>30</span>/100
               </h>
-              <p id="For-text-align">30 universities among top 100 across the world</p>
+              <p id="For-text-align">
+                30 universities among top 100 across the world
+              </p>
             </div>
             <div className="container1-box-grid-right-div">
               <img src={College}></img>
@@ -41,7 +43,7 @@ export default function MoreStatusOnUsa() {
               <h>
                 <span style={{ color: "red" }}>211,930</span>
               </h>
-              <p  id="For-text-align">Number of Indian students in the USA</p>
+              <p id="For-text-align">Number of Indian students in the USA</p>
             </div>
             <div className="container1-box-grid-right-div">
               <img src={Students}></img>
@@ -139,7 +141,7 @@ export default function MoreStatusOnUsa() {
               <div class="MuiPaper-root MuiCard-root  rounded-lg shadow-lg h-full px-4 py-4 bg-white text-black  MuiPaper-elevation1 MuiPaper-rounded">
                 <div class="text-lg font-bold pb-4">Quality of Life</div>
                 <div class="">
-                  <div class="text-2xl w-20 mx-auto rounded-lg shadow-lg p-4 bg-orange-600">
+                  <div class="text- 2xl w-20 mx-auto rounded-lg shadow-lg p-4 bg-orange-600">
                     #17
                   </div>
                 </div>
@@ -152,11 +154,11 @@ export default function MoreStatusOnUsa() {
         </div>
       </div>
 
-      <div class="MuiContainer-root h-full MuiContainer-maxWidthLg pt-10">
-        <div class=" h-full">
-          <div class="grid md:grid-cols-2 gap-4 h-full text-center px-8 ">
-            <div class="md:col-span-1 md:border-r-0 border-white border-solid">
-              <div class="MuiPaper-root MuiCard-root rounded-lg bg-white shadow-lg rounded h-full p-4 MuiPaper-elevation1 MuiPaper-rounded">
+      {/* <div class="MuiContainer-root h-full MuiContainer-maxWidthLg pt-10">
+        <div id="Card-Container-MS" class=" h-full">
+          <div class="grid md:grid-cols-2 gap-4 h-full text-center">
+            <div className="Card-box">
+              <div id="id-4-MoreStatus" class="MuiPaper-root MuiCard-root rounded-lg bg-white shadow-lg rounded h-full p-4 MuiPaper-elevation1 MuiPaper-rounded">
                 <div class="text-lg font-bold pb-4">Part Time Jobs</div>
                 <div class="text-xl pb-4">
                   <div id="Timer-in-MoreStats">
@@ -178,7 +180,7 @@ export default function MoreStatusOnUsa() {
               </div>
             </div>
             <div class="md:col-span-1 md:border-r-0 border-white border-solid">
-              <div class="MuiPaper-root MuiCard-root rounded-lg bg-white shadow-lg h-full p-4 MuiPaper-elevation1 MuiPaper-rounded">
+              <div id="id-4-MoreStatus" class="MuiPaper-root MuiCard-root rounded-lg bg-white shadow-lg h-full p-4 MuiPaper-elevation1 MuiPaper-rounded">
                 <div class="text-lg font-bold pb-4">
                   Post Study Work Duration
                 </div>
@@ -205,7 +207,7 @@ export default function MoreStatusOnUsa() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

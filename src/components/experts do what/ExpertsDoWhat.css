@@ -31,16 +31,12 @@ h6{
     font-size: 15px;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
     #h6-ExpertsDoWhat{
         padding-top: 6px;
         font-size: 20px;
         align-items: center;
     }
-    #ExpertsDoWhat-Padding{
-        padding-left: 0px;
-        padding-right: 0px;
-
-    }
+ 
    
   }
