@@ -13,6 +13,18 @@ import img10 from "../../assets/images/venkata_1.jpg";
 
 export default function UniversitiesOfUsa() {
   return (
+    <div id="fullid">
+
+<div className="EligibilityRequirements-top-div">
+        <hr className="hr-style" />
+        <div className="heading">
+          <h6>More stats on the USA and its education</h6>
+        </div>
+      </div>
+
+
+
+
     <div className="flex flex-row w-3/4  gap-3 px-10 py-10 text-center justify-center  ">
       <div class="max-w-sm bg-white rounded shadow-md border-2 ">
         <div className="max-h-90">
@@ -105,6 +117,7 @@ export default function UniversitiesOfUsa() {
       
 
       {/* div 2 */}
+    </div>
     </div>
   );
 }

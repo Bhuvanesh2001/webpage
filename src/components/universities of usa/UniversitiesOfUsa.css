@@ -1,3 +1,24 @@
+#fullid{
+    background: #e5e7eb;
+}
+.EligibilityRequirements-top-div{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.hr-style{
+    max-width: 4rem;
+    margin: auto;
+    height: 0.3rem;
+    background-color: rgb(243, 102, 56);
+}
+
+h6{
+    padding-top: 6px;
+    text-align: center;
+    font-size: 34px;
+    align-items: center;
+}
+
 @media only screen and (max-width: 426px) {
     #image-1css{
         display: none;
